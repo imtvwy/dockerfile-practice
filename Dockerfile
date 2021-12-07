@@ -4,7 +4,3 @@ FROM jupyter/minimal-notebook
 RUN conda install -y -c anaconda \ 
     docopt=0.6.* \
     pandas=1.3.* 
-
-
-
-RUN 
